@@ -4,7 +4,7 @@
 
 ## Getting started
 
-Install the gem locally on your Mac/PC as:
+Install the gem locally on your Mac/PC
 
 ```sh
 gem install mission_game
@@ -18,7 +18,7 @@ mission_game
 ```
 
 
-Or build the gem yourself as:
+Or build the gem yourself
 
 ```sh
 git clone https://github.com/avosa/mission_game.git
@@ -29,7 +29,7 @@ bundle
 
 gem build mission_game.gemspec
 
-gem install ./mission_game-{VERSION}.gem # eg gem install ./mission_game-1s.1.2.gem
+gem install ./mission_game-{VERSION}.gem # eg gem install ./mission_game-1.1.2.gem
 
 mission_game
 
