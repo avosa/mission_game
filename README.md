@@ -1,6 +1,6 @@
 # Mission Game
 
-[mission-game](https://github.com/avosa/mission_game.git) is a ```gemified CLI based ruby game``` meant to be played by devs at lunchtime to FREE off their minds. 😎
+[mission-game](https://github.com/avosa/mission_game.git) is a ```gemified CLI based ruby game``` meant to be played by devs at lunchtime to FREE their minds. 😎
 
 ## Getting started
 
@@ -18,7 +18,7 @@ mission_game
 ```
 
 
-Or built the gem yourself as:
+Or build the gem yourself as:
 
 ```sh
 git clone https://github.com/avosa/mission_game.git
