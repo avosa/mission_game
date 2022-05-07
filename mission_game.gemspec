@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "mission_game"
-  s.version = "1.1.3"
+  s.version = "1.1.4"
   s.summary =
     "This is an open-source text-based adventure game written in Ruby."
   s.authors = ["Webster Avosa"]

@@ -22,6 +22,8 @@ player = MISSIONGAME::Player.new({name: name, neworleans: neworleans})
 ui.new_line
 story = MISSIONGAME::Story.new
 ui.draw_frame({text: story.intro})
+map = neworleans.get_map({player: player})
+ui.draw_frame({text: map})
 
 # MAIN INPUT LOOP
 running = 1
@@ -38,7 +40,7 @@ while running
     ui.draw_frame({text: map})
   when "version", "ver"
     ui.display_version
-  when "clear", "cls"
+  when "clear", "cls", "c"
     ui.clear
   when "name", "whoami"
     ui.display_name({player: player})
